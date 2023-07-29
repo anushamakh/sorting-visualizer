@@ -1,0 +1,74 @@
+/* SortingVisualizer.css */
+
+.sorting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toolbar {
+  background-color: #4c4c5e;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.controls-container {
+  display: flex;
+  align-items: center;
+}
+
+.speed-selector{
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.select-sort {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.select-speed {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.generate-array-button {
+  background-color: #ff5722; /* Orange color for Generate New Array button */
+  color: white; /* White text color */
+  margin-right: 15px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.sorting-button {
+  background-color: #347fdb; /* Blue color */
+  color: white; /* White text color */
+  margin-right: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+
+}
+
+.array-container {
+  display: flex;
+  align-items: flex-end; /* Aligns the array bars to the bottom */
+  overflow: hidden; /* Prevents array bars from overflowing */
+  margin-top: 50px;
+}
+
+.array-bar {
+  width: 2px;
+  background-color: rgb(64, 176, 224);
+  margin: 0 1px;
+  display: flex;
+  flex-direction: row; /* Ensures the array bars are displayed in the right order */
+  flex-wrap: nowrap; /* Prevents array bars from wrapping to the next row */
+}
+
+
+
+
+
